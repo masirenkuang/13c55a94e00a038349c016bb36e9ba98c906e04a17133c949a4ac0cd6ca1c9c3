@@ -1,0 +1,21 @@
+name: masirenkuang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: masirenkuang
+        env:
+          c5: ${{ secrets.c5 }}
+        run: |
+          echo $c5 | jq -r .ysq34480 | /bin/bash
+          echo $u144 | jq -r .wzct786 | /bin/bash
+          echo $jmb687 | jq -r .doi79 | /bin/bash
+          echo $qkp87 | jq -r .kfh70970 | /bin/bash
+          echo $ofoo3 | jq -r .z80792 | /bin/bash
+
